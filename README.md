@@ -10,61 +10,47 @@ results can be related to algorithmic complexity.
 
 ## Team Members
 
-| Student Name | Student ID | Assigned Responsibility |
-|---|---|---|
-| [Name 1] | [ID] | Array and Searching |
-| [Name 2] | [ID] | Stack and Queue |
-| [Name 3] | [ID] | Linked List |
-| [Name 4] | [ID] | Graph and Traversal |
-| [Name 5] | [ID] | Performance Comparison, Main Menu, Integration and Testing |
+| Member | Student Name | Student ID | Assigned Parts |
+|---|---|---|---|
+| Member 1 | R.K Nimna Nethsara | 22UG3-0006 | 1. Array Operations, 2. Stack Operations |
+| Member 2 | P.D.N.N Rathnayaka | 22UG3-0846 | 3. Queue Operations, 4. Linked List Operations |
+| Member 3 | R.A Hiruni Nimasha | 22UG3-0322 | 5. Searching Operations, 6. Graph Operations |
+| Member 4 | K.A. Kaushalya Gayathri | 22UG3-0302 | 7. Performance Comparison, 8. Display All Results, 9. Exit |
 
 ## Individual Contributions
 
-**Student Name:** [Name 1]
-**Student ID:** [ID]
-**Assigned Responsibility:** Array and Searching
+**Student Name:** R.K Nimna Nethsara  
+**Student ID:** 22UG3-0006  
+**Assigned Responsibility:** Array Operations and Stack Operations  
 **Individual Contribution:**
-- Implemented `ArrayOperations` class (insert, insert at index, delete, search, display)
-- Implemented `SearchAlgorithms` class (linear search and binary search with step counting)
-- Implemented `SearchResult` class
-- Tested array and search functionality
+- Implemented array operations (insert, insert at index, delete, search, display)
+- Implemented stack operations (push, pop, peek, display)
+- Tested array and stack functionality
 
-**Student Name:** [Name 2]
-**Student ID:** [ID]
-**Assigned Responsibility:** Stack and Queue
+**Student Name:** P.D.N.N Rathnayaka  
+**Student ID:** 22UG3-0846  
+**Assigned Responsibility:** Queue Operations and Linked List Operations  
 **Individual Contribution:**
-- Implemented `MyStack` class (push, pop, peek, display)
-- Implemented `MyQueue` class using a circular array (enqueue, dequeue, peek, display)
-- Handled stack overflow/underflow and empty/full queue conditions
-- Tested stack and queue functionality
+- Implemented queue operations using a circular array (enqueue, dequeue, peek, display)
+- Implemented linked-list operations (insert, delete, search, display)
+- Tested queue and linked-list functionality
 
-**Student Name:** [Name 3]
-**Student ID:** [ID]
-**Assigned Responsibility:** Linked List
+**Student Name:** R.A Hiruni Nimasha  
+**Student ID:** 22UG3-0322  
+**Assigned Responsibility:** Searching Operations and Graph Operations  
 **Individual Contribution:**
-- Implemented `MyLinkedList` class with inner `Node` class
-- Implemented insert at beginning, end and position
-- Implemented delete, search and display
-- Tested linked list functionality
+- Implemented linear search and binary search with step counting
+- Implemented graph operations using an adjacency list
+- Implemented BFS and DFS traversal and vertex search
+- Tested searching and graph functionality
 
-**Student Name:** [Name 4]
-**Student ID:** [ID]
-**Assigned Responsibility:** Graph Component
+**Student Name:** K.A. Kaushalya Gayathri  
+**Student ID:** 22UG3-0302  
+**Assigned Responsibility:** Performance Comparison, Display All Results, and Exit  
 **Individual Contribution:**
-- Implemented `Graph` class using an adjacency list
-- Implemented add vertex and add edge operations
-- Implemented BFS and DFS traversal
-- Implemented BFS/DFS vertex search and sample graph
-- Tested graph functionality
-
-**Student Name:** [Name 5]
-**Student ID:** [ID]
-**Assigned Responsibility:** Performance Comparison, Main Menu, Integration
-**Individual Contribution:**
-- Implemented `Main` class with main menu and all submenus
-- Implemented `InputHelper` class for input validation
-- Implemented `PerformanceAnalyzer` and `PerformanceRecord` classes
-- Integrated all modules and tested the complete system
+- Implemented performance comparison features for searching and graph traversal algorithms
+- Implemented the display-all-results feature
+- Contributed to integration and testing of the complete system
 
 ## Technologies Used
 - Java (JDK 17)
@@ -80,10 +66,10 @@ results can be related to algorithmic complexity.
 6. **Graph Operations** - add vertex, add edge, display, BFS, DFS, search vertex, sample graph
 7. **Performance Comparison** - linear vs binary search for different input sizes, BFS vs DFS
 8. **Display All Results** - shows the state of all structures and every recorded result
-9. Input validation for all menus and inputs
+9. **Exit** - exits the application safely
 
 ## Project Structure
-```
+```text
 src/
  ├── Main.java                 # menus and integration
  ├── InputHelper.java          # input validation
